@@ -85,7 +85,7 @@ while condicionVictoria(numeros) is False:
 
     if valor.lower() == 's':
         print("¡Adiós!")
-        break
+        exit()
 
     valor = int(valor)
 
@@ -142,9 +142,7 @@ while condicionVictoria(numeros) is False:
 
 os.system('cls')
 
-
-if condicionVictoria is True:
-    print(""" 
+print(""" 
          ██████╗  █████╗ ███╗   ██╗ █████╗ ███████╗████████╗███████╗
         ██╔════╝ ██╔══██╗████╗  ██║██╔══██╗██╔════╝╚══██╔══╝██╔════╝
         ██║  ███╗███████║██╔██╗ ██║███████║███████╗   ██║   █████╗  
@@ -152,6 +150,5 @@ if condicionVictoria is True:
         ╚██████╔╝██║  ██║██║ ╚████║██║  ██║███████║   ██║   ███████╗
         ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝   ╚═╝   ╚══════╝
                                                                 """)
-else:
-    print("¡Adiós!")
+
 exit()
